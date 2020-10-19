@@ -23,21 +23,20 @@ newCachedThreadPool根据用户的任务数创建相应的线程来处理，该�
 coreSize核心线程数，maxsize最大线程数。</p>
 <h4><a id="7_20"></a>7.线程池的关闭方式有几种，各自的区别是什么。</h4>
 <p>Shutdown shutdownNow tryTerminate 清空工作队列，终止线程池中各个线程，销毁线程池</p>`
-```
+
 let treeObj = new CatalogTree({
     html:html,title:''
 })
 console.log(treeObj.tree)
-```json
-{
-  children: [{
-    children: (4) [{…}, {…}, {…}, {…}]
-    class: "H2"
-    id: "111_0"
-    text: "测试标题111"
-  }],
-  class: "H1",
-  id: "tree-body",
-  text: ""
-}
+// {
+//     children: [{
+//         children: (4) [{…}, {…}, {…}, {…}],
+//         class: "H2",
+//         id: "111_0",
+//         text: "测试标题111",
+//     }],
+//     class: "H1",
+//     id: "tree-body",
+//     text: ""
+// }
 ```
